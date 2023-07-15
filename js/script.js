@@ -9,6 +9,16 @@ function checkFlexGap() {
   flex.appendChild(document.createElement("div"));
   flex.appendChild(document.createElement("div"));
 
+///////////////////////////////////////////////////////////
+  //MAKE MOBILE NAVIGATION WORK
+const btnNavEl =document.querySelector("btn-mobile-nav");
+const headerEl =document.querySelector(".header");
+
+btnNavEl.addEventlistener('click', function() {
+  headerEl.classList.toggle("nav-open");
+})
+
+  ///////////////////////////////////////////////////////////
   document.body.appendChild(flex);
   var isSupported = flex.scrollHeight === 1;
   flex.parentNode.removeChild(flex);
