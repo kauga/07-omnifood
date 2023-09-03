@@ -10,13 +10,20 @@ function checkFlexGap() {
   flex.appendChild(document.createElement("div"));
 
 ///////////////////////////////////////////////////////////
+  //set current year
+  const yearEl = document.querySelector(".year");
+  const currentYear = new Date().getFullYear();
+  yearEl.textContent = currentYear;
+
+
+///////////////////////////////////////////////////////////
   //MAKE MOBILE NAVIGATION WORK
-const btnNavEl =document.querySelector("btn-mobile-nav");
-const headerEl =document.querySelector(".header");
+const btnNavEl = document.querySelector("btn-mobile-nav");
+const headerEl = document.querySelector(".header");
 
 btnNavEl.addEventlistener('click', function() {
   headerEl.classList.toggle("nav-open");
-})
+});
 
   ///////////////////////////////////////////////////////////
   document.body.appendChild(flex);

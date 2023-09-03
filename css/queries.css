@@ -54,7 +54,7 @@
   }
 
   .testimonials-container {
-    padding: 9.6rem 3.2rem;
+    padding: 7.6rem 3.2rem;
   }
 }
 
@@ -89,11 +89,11 @@
   }
 
   .logos img {
-    height: 2.4rem;
+    height: 2rem;
   }
 
   .step-number {
-    font-size: 7.4rem;
+    font-size: 7rem;
   }
 
   .meal-content {
@@ -273,7 +273,7 @@
   }
 
   .gallery {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1.2rem;
   }
 
