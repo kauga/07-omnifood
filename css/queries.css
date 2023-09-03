@@ -75,11 +75,11 @@
    
   .cta-form {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr, 1fr;
   }
 
   .grid--footer {
-    grid-template-columns: 1fr, 1fr;
+    grid-template-columns: 1fr, 1fr 1fr;
   }
 
   .grid--2-cols {
