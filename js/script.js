@@ -25,6 +25,7 @@ btnNavEl.addEventlistener('click', function() {
   headerEl.classList.toggle("nav-open");
 });
 
+
   ///////////////////////////////////////////////////////////
   document.body.appendChild(flex);
   var isSupported = flex.scrollHeight === 1;
