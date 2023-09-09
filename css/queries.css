@@ -54,7 +54,7 @@
   }
 
   .testimonials-container {
-    padding: 7.6rem 3.2rem;
+    padding: 9.6rem 3.2rem;
   }
 }
 
@@ -67,30 +67,6 @@
     /* 8px / 16px = 0.5 = 50% */
     font-size: 50%;
   }
-
-  body {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-   
-  .cta-form {
-    display: grid;
-    grid-template-columns: 1fr, 1fr;
-  }
-
-  .grid--footer {
-    grid-template-columns: 1fr, 1fr 1fr;
-  }
-
-  .grid--2-cols {
-    grid-template-columns: 1fr, 1fr;
-  }
-
-  .grid--3-cols,
-  .grid--4-cols {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
 
   .hero {
     grid-template-columns: 1fr;
@@ -113,18 +89,18 @@
   }
 
   .logos img {
-    height: 2rem;
+    height: 2.4rem;
   }
 
   .step-number {
-    font-size: 7rem;
+    font-size: 7.4rem;
   }
 
   .meal-content {
     padding: 2.4rem 3.2rem 3.2rem 3.2rem;
   }
 
-  .section-testimonials {
+  .section-testimonial {
     grid-template-columns: 1fr;
   }
 
@@ -184,6 +160,7 @@
     visibility: visible;
     transform: translateX(0);
   }
+
   .nav-open .icon-mobile-nav[name="close-outline"] {
     display: block;
   }
@@ -210,7 +187,7 @@
 @media (max-width: 44em) {
   .grid--3-cols,
   .grid--4-cols {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .diets {
