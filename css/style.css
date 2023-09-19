@@ -632,5 +632,57 @@ transition: all 0.3s;
 color: #555;
 } 
 
+/* ************************ */
+/* new css for mobile navigation */
+/* ************************ */
+header {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 0 100px;
+  width: 100%;
+  padding: 20px 80px;
+  background-color: #fdf2e9;
+  box-sizing: border-box;
+}
 
+header nav {
+  float: right;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+  color: #333;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-decoration: none;
+  display: block;
+}
+header nav ul li a:hover,
+header nav ul li a.active {
+  color: #fff;
+  background-color: #2196f3;
+  border-radius: 9px;
+}
+
+.menu-toggle {
+  color: #e67e22;
+  float: right;
+  line-height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
 
