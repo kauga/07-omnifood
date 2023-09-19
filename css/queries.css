@@ -144,11 +144,11 @@
   header nav {
     /* display: none; */
   position: absolute;
-  width: 30%;
+  width: 50%;
   height: calc(100vh - 50px);
   background-color: #333;
   top: 50px;
-  left: -279px;
+  left: -440px;
   transition: 0.5s;
   border-bottom-left-radius: 9px;
   border-bottom-right-radius: 9px;
