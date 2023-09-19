@@ -15,6 +15,7 @@
 
 .logo {
   height: 2.2rem;
+  padding-top: 1rem;
 }
 
 /* ************************ */
@@ -398,8 +399,8 @@
 .Pricing-plan--complete {
   background-color: #fdf2e9;
   padding: 4.8rem;
-  /* width: 400px; */
-  /* height: fit-content; */
+  width: 400px; */
+  /* height: fit-content;
   position: relative;
   overflow: hidden;
 }
