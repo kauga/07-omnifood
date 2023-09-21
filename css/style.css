@@ -35,7 +35,7 @@
   text-decoration: none;
   color: #333;
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   transition: all 0.3s;
 }
 
@@ -158,11 +158,14 @@
 
 .logos {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  font-size: 1rem;
+
 }
 
 .logos img {
   height: 3.2rem;
+  width: 60%;
   filter: brightness(0);
   opacity: 50%;
 }
@@ -327,14 +330,14 @@
 }
 
 .testimonials-container {
-  padding: 9.6rem;
+  padding: 6.6rem;
 }
 
 .testimonials {
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 4.8rem;
-  column-gap: 8rem;
+  column-gap: 3rem;
 }
 
 .testimonial-img {
@@ -344,13 +347,13 @@
 }
 
 .testimonial-text {
-  font-size: 1.8rem;
+  font-size: 1rem;
   line-height: 1.8;
   margin-bottom: 1.6rem;
 }
 
 .testimonial-name {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   color: #6f6f6f;
 }
 
