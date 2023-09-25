@@ -29,6 +29,16 @@ __ 07 whitespace
   margin: 0;
   box-sizing: border-box;
 }
+
+html {
+  /* font-size:10px */
+
+  /* 10px /16px = 0.652= 62.5% */
+  /* font-size: 62.5%; */
+  overflow: hidden;
+/* does not work on safari */
+  /* scroll-behavior: smooth; */
+}
 body {
   font-family: "Rubik", sans-serif;
   line-height: 1;
