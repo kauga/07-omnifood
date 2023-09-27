@@ -33,7 +33,7 @@ if (href === "#") window.scrollTo({
  const sectionHeroEL = document.querySelector(".section-hero");
  const obs = new IntersectionObserver(function(entries) {
   const ent = entries[0];
-  if (!ent.isIntersecting === false)
+  if (ent.isIntersecting === false)
   document.body.classList.add("sticky");
  }, {
   root: null,
