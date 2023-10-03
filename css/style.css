@@ -85,7 +85,8 @@
   height: 8rem;
   padding-top: 0;
   padding-bottom: 0;
-  background-color: #fdf2e9;
+  background-color: #fff;
+  /* background-color: #fdf2e9; */
   z-index: 999;
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
 }
